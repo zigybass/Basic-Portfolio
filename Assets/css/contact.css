@@ -51,3 +51,11 @@ h2 {
     font-weight: 700;
     font-size: 20px;
 }
+
+.button {
+    border: none;
+    background: #4aaaa5;
+    padding: 10px 20px;
+    margin-top: 8px;
+    color: white;
+}
