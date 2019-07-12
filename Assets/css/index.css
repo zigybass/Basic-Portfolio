@@ -1,6 +1,8 @@
+body {
+    background-image: url(../images/wall4.png);
+}
 
-
-.body {
+.main {
     width: 960px;
     margin: auto;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -22,22 +24,28 @@ h1 {
     font-weight: bolder;
     font-size: 25px;
     width: 22%;
-    padding: 28px;
+    padding: 1.1em;
     text-align: center;
     display: block;
     float: left;
     position: relative;
 }
 
-h2 {
-    color: #4aaaa5;
-    font-weight: 700;
-    font-size: 20px;
+.navBar a {
+    text-decoration: none;
+    margin-right: 8px;
+    margin-left: 8px;
+    color: #777777;
+}
+
+.navBar a:hover {
+    text-shadow: 2px 2px 4px #666666;
 }
 
 .navBar {
     float: right;
-    width: 20%;
+    left: 25px;
+    width: 30%;
     position: relative;
     top: 30px;
 }
@@ -49,18 +57,61 @@ h2 {
     border-style: solid;
     border-width: 1px;
     padding: 30px;
+    padding-bottom: 100px;
     margin-top: 35px;
     box-sizing: border-box;
+    overflow: auto;
+    line-height: 1.5em;
+}
+
+h2 {
+    color: #4aaaa5;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.bio {
+    margin-top: 22px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .© {
     text-align: center;
     font-size: small;
+    position: fixed;
+    bottom: 0px;
+    right: 50%;
+    z-index: 1;
+    color: white;
 }
 
 img {
-    width: 250px;
-    height: 150px;
+    width: 180px;
+    height: 130px;
     transform: rotate(90deg);
     float: left;
+    margin: 6px 1px 20px 0px;
+    position: relative;
+    right: 25px;
+    border: #dddddd;
+    border-width: 2px;
+    border-radius: 8%;
+    right: 25px;
+    top: 40px;
+}
+
+.tealBox {
+    width: 100%;
+    height: 6px;
+    background: #4aaaa5;
+    position: fixed;
+    bottom: 30px;
+}
+
+.darkBox {
+    width: 100%;
+    height: 30px;
+    background: #666666;
+    position: fixed;
+    bottom: 0px;
 }
